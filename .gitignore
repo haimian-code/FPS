@@ -1,0 +1,28 @@
+# .gitignore
+
+# 忽略构建和中间文件 (核心必加)
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# 忽略本地用户配置文件
+.idea/
+.vscode/
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.xcworkspace
+*.DS_Store
+
+# 忽略日志和崩溃报告
+*.log
+*.dmp
+*.crash
+
+# 如果你打包了游戏，忽略打包输出文件夹（假设你命名为 Packaged 或 Archived）
+Packaged/
+Archived/
